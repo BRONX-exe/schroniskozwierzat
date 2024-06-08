@@ -1,0 +1,132 @@
+*{
+    font-family: Kanit;
+}
+
+body{
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    filter: brightness(1.1);
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+header{
+    background-image: url(kot1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header h1{
+    padding-top: 280px;
+}
+
+header h2{
+    font-weight: 200;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.adopcja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    background-color: #f2f2f2;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 30px;
+    margin: 40px;
+}
+.card-image{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: darkolivegreen;
+}
+
+.card-description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.card:nth-child{
+    margin-top: 20px;
+}
+.button{
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: darkolivegreen;
+}
+footer{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+}
+
+footer ul li h3{
+    font-size: 28px;
+    color: rgb(0, 53, 0);
+}
+
+footer ul li{   
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
